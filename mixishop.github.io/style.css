@@ -1,0 +1,219 @@
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-areas:
+      "header "
+      " main  "
+      "footer ";
+    grid-template-rows: auto 1fr min-content;
+    /* gap: 5px; */
+    margin:0px;
+    padding:0px;
+    /* height: 100vh;
+    width: 100vw; */
+
+
+  }
+  .logo3{
+   
+  }
+  .search{
+    
+    
+    
+
+  }
+  
+  .header {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+  }
+
+  .header1 {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    padding-left: 40px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+  }
+  .container {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: rgb(238, 236, 236);
+  }
+  .header1 > span:first-child {
+    font-size: 40px;
+  }
+  .header2 {
+    display: flex;
+    font-size: 20px;
+    float:right;
+    padding: 10px;
+    padding-top: 15px;
+    font-family: "Roboto";
+    align-items: center;
+  }
+  .header2 > span:first-child {
+    padding-right: 40px;
+  }
+  .header4 {
+    margin: 0px 40px;
+    padding-top: 15px;
+    font-size: 17px;
+    font-family: "Roboto";
+    color:gray;
+   
+  }
+ 
+  .mixishop {
+  width: 100vw;
+  }
+  .main2 {
+      text-align: center;
+      font-family: "Roboto";
+      font-size: 50px;
+      padding-top: 30px;
+
+}
+  .grid-container1{
+    display: grid;
+    gap: 30px;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .grid-item > img {
+    
+    border-radius: 5px;
+  }
+  .grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+  }
+  .footer {
+   background-color: white;
+    height: 100px;
+  }
+  .clip{
+    width: 90%;
+    height: 500px;
+    position:fixed;
+  }
+  
+  .gia {
+      height: 50px;
+  }
+  .mixi1{
+    color:grey;
+    font-size: 12px;
+  }
+ .mixi2{
+   color: rgb(61, 169, 133);
+ }
+ .mixi2:hover{
+   color:rgb(194, 69, 194)
+ }
+ .telephone{
+   color:grey;
+   font-size: 15px;
+   
+ }
+ .buy1{
+   color:grey;
+   font-size: 15px;
+   float: right;
+ }
+ .mixi3{
+  font-family: "Roboto";
+ }
+ .mixi6{
+   color:grey;
+   font-family: "Roboto";
+ }
+ .header4:hover{
+  color: rgb(61, 169, 133);
+ }
+ .image3{
+   display:flex;
+   margin:100px;
+   align-items: center;
+   justify-content: center;
+ }
+ .buy1:hover{
+  color: rgb(61, 169, 133);}
+  .telephone:hover{
+    color:black;
+  }
+  .grid-container2{
+    display: grid;
+    gap: 30px;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .grid-item2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+   
+  }
+  .feedback{
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 40px;
+   padding-bottom: 40px;
+  }
+  .grid-container3{
+    display: grid;
+    gap: 30px;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .footer3{color: rgb(61, 169, 133);
+    font-size: 20px;
+   
+    float:left;
+  }
+  .footer2{
+    font-size: 20px;
+    padding-top: 20px;
+    font-family: "Roboto";
+  }
+  .footer1{
+    font-size: 20px;
+    padding-left: 10px;
+    color:gray;
+  }
+  .footer5{
+    font-size: 20px;
+    padding-top: 20px;
+    font-family: "Roboto";
+    padding-left: 20px;
+  }
+  .mixishop2{
+    width: 100vw;
+  }
+
+  .divider {
+    width: 100vw;
+    background-color: rgb(225, 216, 216);
+    height: 1px;
+    margin: 5vh 0px;
+  }
